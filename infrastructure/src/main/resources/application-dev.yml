@@ -1,0 +1,10 @@
+postgres:
+  url: localhost:5432
+  schema: adm_videos
+  username: postgres
+  password: root
+server:
+  undertow:
+    threads:
+      io: 2
+      worker: 10

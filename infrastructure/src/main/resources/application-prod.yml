@@ -1,0 +1,8 @@
+postgres:
+  url: ${DATABASE_POSTGRESQL_URL:localhost:5432}
+  schema: adm_videos
+  username: ${DATABASE_POSTGRESQL_USERNAME}
+  password: ${DATABASE_POSTGRESQL_PASSWORD}
+spring:
+  jpa:
+    show-sql: false
